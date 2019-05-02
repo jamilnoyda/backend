@@ -19,5 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^user/', include('users.urls', namespace='users')),
+    url(r'^standard-deviation/', include('standard_deviation.urls', namespace='standard_deviation')),
+
  
 ]

@@ -1,0 +1,36 @@
+[
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$36000$VuuOhfDwDNWH$iAY9vm7c7g0HkiEDdQC29o9Xd3b6N5MeGhiO0HI5FCk=",
+            "last_login": null,
+            "is_superuser": true,
+            "email": "jamilnoyda@gmail.com",
+            "first_name": "hello",
+            "last_name": "hello",
+            "is_active": true,
+            "is_staff": true,
+            "date_joined": "2019-04-12T05:35:27.911Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$36000$yThFfPn6I7n8$wiFsL2Z47/JjIpOhNtzny/unTrieYZZBT6ad+NFOR54=",
+            "last_login": null,
+            "is_superuser": true,
+            "email": "admin@gmail.com",
+            "first_name": "admin",
+            "last_name": "admin",
+            "is_active": true,
+            "is_staff": true,
+            "date_joined": "2019-04-12T05:36:51.262Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
