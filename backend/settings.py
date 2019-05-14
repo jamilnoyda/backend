@@ -164,3 +164,9 @@ PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
 FIXTURE_DIRS = (
    os.path.join(PROJECT_DIR, 'fixtures'),
 )
+
+CELERY_BROKER_URL = 'redis://redis:6379/'
+# CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
