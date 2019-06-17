@@ -1,7 +1,7 @@
 # Create your models here.
 from __future__ import unicode_literals
 from django.db import models
-import uuid
+
 
 from django.utils import timezone
 from django.db import transaction
@@ -15,7 +15,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     """
     An abstract base class implementing a fully featured User.
     """
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     email = models.EmailField(max_length=40, unique=True)
     first_name = models.CharField(max_length=30, blank=True)
     last_name = models.CharField(max_length=30, blank=True)
